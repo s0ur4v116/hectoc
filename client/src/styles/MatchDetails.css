@@ -1,0 +1,35 @@
+.puzzles-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .puzzle-card {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .puzzle-number {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .puzzle-digits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .digit-box {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
